@@ -1,0 +1,7 @@
+c:\users\razva_000\documents\visual studio 2015\Projects\Prime1\Prime1\bin\Debug\Prime1.exe.config
+c:\users\razva_000\documents\visual studio 2015\Projects\Prime1\Prime1\bin\Debug\Prime1.exe
+c:\users\razva_000\documents\visual studio 2015\Projects\Prime1\Prime1\bin\Debug\Prime1.pdb
+c:\users\razva_000\documents\visual studio 2015\Projects\Prime1\Prime1\obj\Debug\Prime1.exe
+c:\users\razva_000\documents\visual studio 2015\Projects\Prime1\Prime1\obj\Debug\Prime1.pdb
+c:\users\razva_000\documents\visual studio 2015\Projects\Prime1\Prime1\bin\Debug\MPI.dll
+c:\users\razva_000\documents\visual studio 2015\Projects\Prime1\Prime1\bin\Debug\MPI.xml
