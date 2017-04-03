@@ -10,11 +10,9 @@ namespace lab2
     class Program
     {
         static int rank, size;
-        static int highestPosition;
         static int nrToSearch = 18;
         static int nvalues;
         static int[] array = new int[50];
-        static List<int> positionsWhereFound = new List<int>();
         static int[] positions = new int[50];
         static int i, j, temp;
         static bool inrange, found;
@@ -32,7 +30,14 @@ namespace lab2
                 {
                     for (i = 0; i < 50; ++i)
                     {
-                        array[i] = i;
+                        if (i % 10 == 0)
+                        {
+                            array[i] = 18;
+                        }
+                        else
+                        {
+                            array[i] = i;
+                        }
                     }
                 }
 
@@ -43,13 +48,14 @@ namespace lab2
                 i = rank * nvalues;
 
                 inrange = ((i <= ((rank + 1) * nvalues - 1)) & (i >= rank * nvalues));
-
+                List<int> indexes = new List<int>();
                 while (inrange)
                 {
 
                     if (array[i] == nrToSearch)
                     {
                         temp = 23;
+                        indexes.Add(i);
                         for (j = 0; j < size; ++j)
                         {
                             Communicator.world.Send<int>(temp, j, 1);
@@ -66,9 +72,22 @@ namespace lab2
                     Console.WriteLine("The process: " + rank + " stopped index " + (i - 1) + "\n");
                 }
 
+                int max = -1;
+                for(i = 0; i< indexes.Count; i++)
+                {
+                    if(indexes[i] > max)
+                    {
+                        max = indexes[i];
+                    }
+
+                }
+
+                int high = world.Reduce<int>(max, Operation<int>.Max, 0);
+                System.Console.Write("The highest index is " + high);
             }
 
         }
 
     }
+
 }

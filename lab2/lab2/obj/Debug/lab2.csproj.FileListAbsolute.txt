@@ -6,3 +6,11 @@ c:\users\razva_000\documents\visual studio 2015\Projects\lab2\lab2\bin\Debug\MPI
 c:\users\razva_000\documents\visual studio 2015\Projects\lab2\lab2\obj\Debug\lab2.csprojResolveAssemblyReference.cache
 c:\users\razva_000\documents\visual studio 2015\Projects\lab2\lab2\obj\Debug\lab2.exe
 c:\users\razva_000\documents\visual studio 2015\Projects\lab2\lab2\obj\Debug\lab2.pdb
+E:\PDA\lab2\lab2\bin\Debug\lab2.exe.config
+E:\PDA\lab2\lab2\obj\Debug\lab2.exe
+E:\PDA\lab2\lab2\obj\Debug\lab2.pdb
+E:\PDA\lab2\lab2\bin\Debug\lab2.exe
+E:\PDA\lab2\lab2\bin\Debug\lab2.pdb
+E:\PDA\lab2\lab2\bin\Debug\MPI.dll
+E:\PDA\lab2\lab2\bin\Debug\MPI.xml
+E:\PDA\lab2\lab2\obj\Debug\lab2.csprojResolveAssemblyReference.cache
