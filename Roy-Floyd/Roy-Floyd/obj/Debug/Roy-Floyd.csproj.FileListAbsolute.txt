@@ -1,0 +1,8 @@
+c:\users\razvan\documents\visual studio 2015\Projects\Roy-Floyd\Roy-Floyd\bin\Debug\Roy-Floyd.exe.config
+c:\users\razvan\documents\visual studio 2015\Projects\Roy-Floyd\Roy-Floyd\bin\Debug\Roy-Floyd.exe
+c:\users\razvan\documents\visual studio 2015\Projects\Roy-Floyd\Roy-Floyd\bin\Debug\Roy-Floyd.pdb
+c:\users\razvan\documents\visual studio 2015\Projects\Roy-Floyd\Roy-Floyd\bin\Debug\MPI.dll
+c:\users\razvan\documents\visual studio 2015\Projects\Roy-Floyd\Roy-Floyd\bin\Debug\MPI.xml
+c:\users\razvan\documents\visual studio 2015\Projects\Roy-Floyd\Roy-Floyd\obj\Debug\Roy-Floyd.csprojResolveAssemblyReference.cache
+c:\users\razvan\documents\visual studio 2015\Projects\Roy-Floyd\Roy-Floyd\obj\Debug\Roy-Floyd.exe
+c:\users\razvan\documents\visual studio 2015\Projects\Roy-Floyd\Roy-Floyd\obj\Debug\Roy-Floyd.pdb
