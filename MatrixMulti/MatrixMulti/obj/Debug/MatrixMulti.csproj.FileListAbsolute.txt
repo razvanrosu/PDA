@@ -1,1 +1,9 @@
 c:\users\razvan\documents\visual studio 2015\Projects\MatrixMulti\MatrixMulti\bin\Debug\MatrixMulti.exe.config
+D:\projects\PDA\MatrixMulti\MatrixMulti\bin\Debug\MatrixMulti.exe.config
+D:\projects\PDA\MatrixMulti\MatrixMulti\bin\Debug\MatrixMulti.exe
+D:\projects\PDA\MatrixMulti\MatrixMulti\bin\Debug\MatrixMulti.pdb
+D:\projects\PDA\MatrixMulti\MatrixMulti\bin\Debug\MPI.dll
+D:\projects\PDA\MatrixMulti\MatrixMulti\bin\Debug\MPI.xml
+D:\projects\PDA\MatrixMulti\MatrixMulti\obj\Debug\MatrixMulti.csprojResolveAssemblyReference.cache
+D:\projects\PDA\MatrixMulti\MatrixMulti\obj\Debug\MatrixMulti.exe
+D:\projects\PDA\MatrixMulti\MatrixMulti\obj\Debug\MatrixMulti.pdb

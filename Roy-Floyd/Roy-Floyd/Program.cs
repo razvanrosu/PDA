@@ -11,10 +11,10 @@ namespace Roy_Floyd
     {
         public const int INF = 99999;
         public static int[,] graph = {
-            { 0,   5,  INF, 10 },
-            { INF, 0,   3, INF },
+            { 0, 2,  3, 10 },
+            { 4, 0,  INF, 7 },
             { INF, INF, 0,   1 },
-            { INF, INF, INF, 0 }
+            { 7, INF, INF, 0 }
         };
         static int procid, numproc, n = 4, j, k, constant = 4;
 
@@ -73,35 +73,21 @@ namespace Roy_Floyd
                 stop = start + (count - 1);
             }
 
-
-            for (k = 0; k < nrOfVertices; k++)
-            {
-                comm.Barrier();
-
-                for (int i = start; i < stop; ++i)
-                    for (int j = 0; j < nrOfVertices; ++j)
-                    {
-                        distance[i, j] = graph[i, j];
-
-                    }
-
-            }
-
             for (k = 0; k < nrOfVertices; k++)
             {
                 for (int i = start; i <= stop; ++i)
                 {
                     for (int j = 0; j < nrOfVertices; ++j)
                     {
-                        if (distance[i, k] + distance[k, j] < distance[i, j])
-                            distance[i, j] = distance[i, k] + distance[k, j];
+                        if (graph[i, k] + graph[k, j] < graph[i, j])
+                            graph[i, j] = graph[i, k] + graph[k, j];
                     }
                 }
-                comm.Barrier();
+                comm.Allgather<int[,]>(graph);
             }
 
-            comm.Gather<int[,]>(distance, 0);
-            Print(distance, nrOfVertices, procid);
+            //comm.Gather<int[,]>(distance, 0);
+            Print(graph, nrOfVertices, procid);
 
         }
     }
