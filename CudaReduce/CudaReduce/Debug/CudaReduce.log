@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  C:\Users\Razvan\Documents\Visual Studio 2015\Projects\CudaReduce\CudaReduce>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Kits\Visual Studio 2015\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\main.cu.obj "C:\Users\Razvan\Documents\Visual Studio 2015\Projects\CudaReduce\CudaReduce\main.cu" 
+C:/Users/Razvan/Documents/Visual Studio 2015/Projects/CudaReduce/CudaReduce/main.cu(37): warning : expression has no effect
+C:/Users/Razvan/Documents/Visual Studio 2015/Projects/CudaReduce/CudaReduce/main.cu(37): warning : expression has no effect
+C:/Users/Razvan/Documents/Visual Studio 2015/Projects/CudaReduce/CudaReduce/main.cu(37): warning : expression has no effect
+C:/Users/Razvan/Documents/Visual Studio 2015/Projects/CudaReduce/CudaReduce/main.cu(37): warning : expression has no effect
+C:/Users/Razvan/Documents/Visual Studio 2015/Projects/CudaReduce/CudaReduce/main.cu(37): warning : expression has no effect
+C:/Users/Razvan/Documents/Visual Studio 2015/Projects/CudaReduce/CudaReduce/main.cu(37): warning : expression has no effect
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  main.cu
+C:/Users/Razvan/Documents/Visual Studio 2015/Projects/CudaReduce/CudaReduce/main.cu(41): warning C4473: 'scanf' : not enough arguments passed for format string
+  C:/Users/Razvan/Documents/Visual Studio 2015/Projects/CudaReduce/CudaReduce/main.cu(41): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  C:/Users/Razvan/Documents/Visual Studio 2015/Projects/CudaReduce/CudaReduce/main.cu(41): note: the missing variadic argument 1 is required by format string '%d'
+  CudaReduce.vcxproj -> C:\Users\Razvan\Documents\Visual Studio 2015\Projects\CudaReduce\Debug\CudaReduce.exe
+  CudaReduce.vcxproj -> C:\Users\Razvan\Documents\Visual Studio 2015\Projects\CudaReduce\Debug\CudaReduce.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Razvan\Documents\Visual Studio 2015\Projects\CudaReduce\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
