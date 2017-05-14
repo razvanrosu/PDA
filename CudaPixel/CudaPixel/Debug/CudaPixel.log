@@ -1,16 +1,1 @@
-﻿  Compiling CUDA source file kernel.cu...
-  
-  D:\projects\PDA\CudaPixel\CudaPixel>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\Kits\Visual Studio 2015\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "D:\projects\PDA\CudaPixel\CudaPixel\kernel.cu" 
-D:/projects/PDA/CudaPixel/CudaPixel/kernel.cu(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-D:/projects/PDA/CudaPixel/CudaPixel/kernel.cu(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
-  kernel.cu
-D:/projects/PDA/CudaPixel/CudaPixel/kernel.cu(91): warning C4473: 'scanf' : not enough arguments passed for format string
-  D:/projects/PDA/CudaPixel/CudaPixel/kernel.cu(91): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
-  D:/projects/PDA/CudaPixel/CudaPixel/kernel.cu(91): note: the missing variadic argument 1 is required by format string '%d'
-  CudaPixel.vcxproj -> D:\projects\PDA\CudaPixel\Debug\CudaPixel.exe
-  CudaPixel.vcxproj -> D:\projects\PDA\CudaPixel\Debug\CudaPixel.pdb (Full PDB)
-  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "D:\projects\PDA\CudaPixel\Debug\"
-  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
-  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
-          2 file(s) copied.
+﻿LINK : fatal error LNK1168: cannot open D:\projects\PDA\CudaPixel\Debug\CudaPixel.exe for writing
